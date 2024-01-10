@@ -57,7 +57,7 @@ var (
 		"Path to profile output").Default("").String()
 	reformatTags = kingpin.Flag(
 		"reformat-tags",
-		"Reformat struct tags").Default("true").Bool()
+		"Reformat struct tags").Default("false").Bool()
 	shortenComments = kingpin.Flag(
 		"shorten-comments",
 		"Shorten single-line comments").Default("false").Bool()

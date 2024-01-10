@@ -1,4 +1,4 @@
-module github.com/segmentio/golines
+module github.com/YangTaeyoung/gorettier
 
 go 1.18
 
